@@ -3,7 +3,7 @@
 An aesthetic, high-performance developer portfolio built by a duo of developers. This project demonstrates a professional Git workflow, responsive UI design, and advanced CSS features like Dark/Light mode toggling.
 
 ## 🔗 Live Demo
-[**View Live Website Here**](INSERT_YOUR_GITHUB_PAGES_LINK_HERE)
+[**View Live Website Here**] (https://g4iken.github.io/cpe411l-pair-website/)
 
 ---
 
