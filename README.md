@@ -1,1 +1,40 @@
-# cpe411l-pair-website
+# 💻 DevPair | Collaborative Developer Portfolio
+
+An aesthetic, high-performance developer portfolio built by a duo of developers. This project demonstrates a professional Git workflow, responsive UI design, and advanced CSS features like Dark/Light mode toggling.
+
+## 🔗 Live Demo
+[**View Live Website Here**] (https://g4iken.github.io/cpe411l-pair-website/)
+
+---
+
+## 🚀 Team & Contributions
+This was a collaborative effort for **CPE411L**.
+
+- **Partner A ([Elmo]):** Focused on UI/UX, Glassmorphism design, and Footer architecture.
+- **Partner B ([Daryl]):** Focused on Git workflow, Dark Mode logic, and Mobile responsiveness.
+
+---
+
+## 🛠️ Key Features
+* **🌓 Dynamic Theme Toggle:** Seamlessly switch between Light and Dark modes.
+* **📱 Mobile First:** Fully responsive grid layouts that stack perfectly on mobile.
+* **✨ Aesthetic UI:** Uses Glassmorphism, CSS variables, and Font Awesome icons.
+* **📂 Multi-Page Design:** Includes Home, About, Projects, and Contact pages.
+
+---
+
+## ⚙️ Development Workflow
+We followed a strict **GitHub Feature Branch Workflow**:
+1.  **Branching:** 6+ dedicated branches for specific features (e.g., `feature/home page`, `feature/dark-mode`).
+2.  **Commits:** Over 15+ meaningful commits documenting the progress.
+3.  **Collaboration:** All major changes were reviewed and merged through Pull Requests.
+
+---
+
+## 🛠️ Built With
+- **HTML5** (Semantic structure)
+- **CSS3** (Flexbox, Grid, Custom Variables)
+- **Font Awesome** (Modern social icons)
+
+---
+*Developed for educational purposes © 2026 DevPair*
