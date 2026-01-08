@@ -10,8 +10,8 @@ An aesthetic, high-performance developer portfolio built by a duo of developers.
 ## 🚀 Team & Contributions
 This was a collaborative effort for **CPE411L**.
 
-- **Partner A ([Name]):** Focused on UI/UX, Glassmorphism design, and Footer architecture.
-- **Partner B ([Name]):** Focused on Git workflow, Dark Mode logic, and Mobile responsiveness.
+- **Partner A ([Elmo]):** Focused on UI/UX, Glassmorphism design, and Footer architecture.
+- **Partner B ([Daryl]):** Focused on Git workflow, Dark Mode logic, and Mobile responsiveness.
 
 ---
 
@@ -25,7 +25,7 @@ This was a collaborative effort for **CPE411L**.
 
 ## ⚙️ Development Workflow
 We followed a strict **GitHub Feature Branch Workflow**:
-1.  **Branching:** 6+ dedicated branches for specific features (e.g., `feature/luxury-redesign`, `feature/dark-mode`).
+1.  **Branching:** 6+ dedicated branches for specific features (e.g., `feature/home page`, `feature/dark-mode`).
 2.  **Commits:** Over 15+ meaningful commits documenting the progress.
 3.  **Collaboration:** All major changes were reviewed and merged through Pull Requests.
 
@@ -34,9 +34,7 @@ We followed a strict **GitHub Feature Branch Workflow**:
 ## 🛠️ Built With
 - **HTML5** (Semantic structure)
 - **CSS3** (Flexbox, Grid, Custom Variables)
-- **JavaScript** (Theme toggle logic)
 - **Font Awesome** (Modern social icons)
-- **Unsplash API** (Professional tech imagery)
 
 ---
 *Developed for educational purposes © 2026 DevPair*
