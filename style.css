@@ -65,3 +65,24 @@ body {
     .hero h1 { font-size: 2.2rem; }
     .navbar { flex-direction: column; gap: 1rem; }
 }
+
+.about-content {
+    padding: 5rem 10%;
+    text-align: center;
+}
+
+.about-content h2 { font-size: 3rem; margin-bottom: 2rem; }
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.member {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
