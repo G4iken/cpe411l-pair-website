@@ -1,44 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Projects | Contour Clinics</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Projects | DevPair</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <nav class="navbar">
-        <div class="logo">CONTOUR.<span>Clinics</span></div>
+        <div class="logo">DEV<span>PAIR.</span></div>
         <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
 
-    <section class="hero" style="height: 50vh; min-height: auto;">
-        <div class="hero-content" style="text-align: center; padding-right: 0;">
-            <h1>Before & <span>After</span></h1>
-            <p>Real results from our patients.</p>
-        </div>
-    </section>
+    <section class="container">
+    <div class="section-header">
+        <h1>Our <span>Work.</span></h1>
+    </div>
 
-    <section style="padding: 50px 8%;">
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
-            <div style="background: white; padding: 20px; border: 1px solid #eee;">
-                <div style="height: 200px; background: #ddd; margin-bottom: 15px;"></div> <h3 style="font-family: 'Playfair Display'; margin-bottom: 10px;">Skin Rejuvenation</h3>
-                <p style="font-size: 0.9rem; color: #666;">Full face treatment targeting texture and tone.</p>
-            </div>
-            <div style="background: white; padding: 20px; border: 1px solid #eee;">
-                <div style="height: 200px; background: #ddd; margin-bottom: 15px;"></div>
-                <h3 style="font-family: 'Playfair Display'; margin-bottom: 10px;">Anti-Wrinkle</h3>
-                <p style="font-size: 0.9rem; color: #666;">Softening fine lines for a natural look.</p>
+    <div class="grid">
+        <div class="card project-card">
+            <div class="project-img" style="background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=600');"></div>
+            <div class="project-info">
+                <h3>Cloud Dashboard</h3>
+                <p>A data visualization tool for server monitoring.</p>
+                <div class="tags"><span>React</span> <span>Node.js</span></div>
             </div>
         </div>
-    </section>
 
+        <div class="card project-card">
+            <div class="project-img" style="background-image: url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=600');"></div>
+            <div class="project-info">
+                <h3>Algorithm Visualizer</h3>
+                <p>Interactive tool to learn sorting algorithms.</p>
+                <div class="tags"><span>JavaScript</span> <span>Canvas</span></div>
+            </div>
+        </div>
+
+        <div class="card project-card">
+            <div class="project-img" style="background-image: url('https://images.unsplash.com/photo-1551650975-87deedd944c3?q=80&w=600');"></div>
+            <div class="project-info">
+                <h3>Mobile Banking UI</h3>
+                <p>Secure and minimalist banking application concept.</p>
+                <div class="tags"><span>Flutter</span> <span>Firebase</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+    <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-brand">
+            <div class="logo">DEV<span>PAIR.</span></div>
+            <p>Crafting digital excellence through collaborative code.</p>
+        </div>
+        
+        <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-social-box">
+            <h4>Connect</h4>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 DevPair. Designed with precision.</p>
+    </div>
+</footer>
 </body>
 </html>

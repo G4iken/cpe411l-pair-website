@@ -1,45 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | Aesthetic Site</title>
-    <link rel="stylesheet" href="style.css">
+    <title>About Us | DevPair</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav class="navbar">
-        <div class="logo">MODERN<span>SITE</span></div>
+        <div class="logo">DEV<span>PAIR.</span></div>
         <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="#">Projects</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
 
-    <section class="about-content">
-        <h2>About Our <span>Mission.</span></h2>
-        <p>We believe in building clean, functional, and beautiful digital experiences through teamwork.</p>
-        <div class="team-grid">
-            <div class="member">
-                <h3>Jeremy Elmo Ebardo</h3>
-                <p>Lead Developer</p>
+    <section class="container">
+        <div class="section-header">
+            <h1>The <span>Developers.</span></h1>
+            <p>Two passionate coders working together to build better web experiences.</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <i class="fas fa-code-branch fa-2x" style="color: var(--accent);"></i>
+                <h3>Jeremy Elmo D. Ebardo</h3>
+                <p>Lead Frontend Developer specializing in UI/UX and CSS architecture.</p>
+                <div class="tags"><span>HTML</span> <span>CSS</span> <span>Git</span></div>
             </div>
-            <div class="member">
-                <h3>Daryl Burcia</h3>
-                <p>UI Designer</p>
+            <div class="card">
+                <i class="fas fa-terminal fa-2x" style="color: var(--accent);"></i>
+                <h3>Daryl E. Burcia</h3>
+                <p>Workflow Specialist focused on GitHub actions and responsive design.</p>
+                <div class="tags"><span>JavaScript</span> <span>GitHub</span> <span>Testing</span></div>
             </div>
         </div>
     </section>
     <footer class="footer">
-    <div class="footer-content">
-        <p>&copy; 2026 ModernSite. Built with Precision.</p>
-        <div class="socials">
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#"><i class="fa-brands fa-github"></i></a>
-            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+    <div class="footer-container">
+        <div class="footer-brand">
+            <div class="logo">DEV<span>PAIR.</span></div>
+            <p>Crafting digital excellence through collaborative code.</p>
         </div>
+        
+        <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-social-box">
+            <h4>Connect</h4>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 DevPair. Designed with precision.</p>
     </div>
 </footer>
 </body>

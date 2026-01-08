@@ -1,66 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contour Clinics | Aesthetic Site</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>DevPair | Creative Developers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <nav class="navbar">
-        <div class="logo">CONTOUR.<span>Clinics</span></div>
+        <div class="logo">DEV<span>PAIR.</span></div>
         <ul class="nav-links">
-            <li><a href="projects.html">Treatments +</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="projects.html">Before & After</a></li> 
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
-        <a href="contact.html" class="nav-btn">Book Now</a>
+        <div class="theme-switch" id="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </div>
     </nav>
 
     <header class="hero">
-        <div class="hero-content">
-            <div class="rating">
-                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                <span>Over 5,000 - 5 Star Reviews</span>
-            </div>
-            
-            <h1>Cosmetic Doctors <br>You Can <span>Trust.</span></h1>
-            <p>Beauty is not just a look, it's a feeling. Contour Clinics offers the most comprehensive range of medical aesthetic treatments in Australia.</p>
-            
+        <div class="hero-text">
+            <span class="badge">Available for Hire</span>
+            <h1>We build digital <span>experiences.</span></h1>
+            <p>A duo of developers specializing in minimalist design and robust GitHub workflows.</p>
             <div class="hero-btns">
-                <a href="projects.html" class="btn dark-btn">See our treatments</a>
-                <a href="contact.html" class="btn light-btn">Book Consultation</a>
+                <a href="projects.html" class="btn primary">View Projects</a>
+                <a href="contact.html" class="btn secondary">Let's Talk</a>
             </div>
-        </div>
-
-        <div class="hero-image-container">
-            <div class="luxury-image"></div>
         </div>
     </header>
 
+    <script>
+        const toggle = document.getElementById('theme-toggle');
+        const body = document.documentElement;
+
+        toggle.addEventListener('click', () => {
+            if (body.getAttribute('data-theme') === 'dark') {
+                body.setAttribute('data-theme', 'light');
+                toggle.innerHTML = '<i class="fas fa-sun"></i>';
+            } else {
+                body.setAttribute('data-theme', 'dark');
+                toggle.innerHTML = '<i class="fas fa-moon"></i>';
+            }
+        });
+    </script>
     <footer class="footer">
-        <div class="footer-content">
-            <p>&copy; 2026 Contour Clinics. Built with Precision.</p>
-            <div class="socials">
+    <div class="footer-container">
+        <div class="footer-brand">
+            <div class="logo">DEV<span>PAIR.</span></div>
+            <p>Crafting digital excellence through collaborative code.</p>
+        </div>
+        
+        <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-social-box">
+            <h4>Connect</h4>
+            <div class="social-icons">
                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                 <a href="#"><i class="fa-brands fa-github"></i></a>
                 <a href="#"><i class="fa-solid fa-envelope"></i></a>
             </div>
         </div>
-    </footer>
-
-    <button id="scrollTop" class="scroll-btn">↑</button>
-
-    <script>
-        // Smooth scroll logic
-        document.getElementById('scrollTop').onclick = function() {
-            window.scrollTo({top: 0, behavior: 'smooth'});
-        };
-    </script>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 DevPair. Designed with precision.</p>
+    </div>
+</footer>
 </body>
 </html>
